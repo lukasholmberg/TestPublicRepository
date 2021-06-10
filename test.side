@@ -34,6 +34,24 @@
         ["xpath=//a[contains(.,'More information...')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "7ba35e4e-14a7-403a-a117-42c4f0fff7fc",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b78d5e1-578d-4946-b3df-b449691aa537",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=#main_right > p:nth-child(2)",
+      "targets": [
+        ["css=#main_right > p:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='main_right']/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": ""
     }]
   }],
   "suites": [{
