@@ -41,13 +41,6 @@
       "target": "2000",
       "targets": [],
       "value": ""
-    }, {
-      "id": "9b78d5e1-578d-4946-b3df-b449691aa537",
-      "comment": "",
-      "command": "verifyText",
-      "target": "xpath=//p",
-      "targets": [],
-      "value": "*IANA*"
     }]
   }],
   "suites": [{
